@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 /home/vboxuser/devops/MyMavenApp/src/main/java/com/example/MainClass.java
 /home/vboxuser/devops/MyMavenApp/src/main/java/com/example/App.java
+=======
+/home/vboxuser/devops/MyMavenSeleniumApp01/src/main/java/com/example/App.java
+>>>>>>> 29bc347 (first commit)

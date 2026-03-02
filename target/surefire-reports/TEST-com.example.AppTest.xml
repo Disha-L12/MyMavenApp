@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.065" tests="1" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.002" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> 29bc347 (first commit)
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
+<<<<<<< HEAD
     <property name="java.class.path" value="/home/vboxuser/devops/MyMavenApp/target/test-classes:/home/vboxuser/devops/MyMavenApp/target/classes:/home/vboxuser/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+=======
+    <property name="java.class.path" value="/home/vboxuser/devops/MyMavenSeleniumApp01/target/test-classes:/home/vboxuser/devops/MyMavenSeleniumApp01/target/classes:/home/vboxuser/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/home/vboxuser/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/home/vboxuser/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/home/vboxuser/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/vboxuser/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/vboxuser/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/vboxuser/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/vboxuser/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/vboxuser/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/vboxuser/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/home/vboxuser/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/home/vboxuser/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:"/>
+>>>>>>> 29bc347 (first commit)
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,9 +24,15 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="/home/vboxuser/devops/MyMavenApp/target/surefire/surefirebooter798975161524152343.jar /home/vboxuser/devops/MyMavenApp/target/surefire 2026-02-23T09-42-09_812-jvmRun1 surefire27712211398445518tmp surefire_06592162197920274260tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/vboxuser/devops/MyMavenApp/target/test-classes:/home/vboxuser/devops/MyMavenApp/target/classes:/home/vboxuser/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+=======
+    <property name="sun.java.command" value="/home/vboxuser/devops/MyMavenSeleniumApp01/target/surefire/surefirebooter16175246807057187582.jar /home/vboxuser/devops/MyMavenSeleniumApp01/target/surefire 2026-03-02T10-24-00_435-jvmRun1 surefire17933738580637081601tmp surefire_016475567843198159492tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/vboxuser/devops/MyMavenSeleniumApp01/target/test-classes:/home/vboxuser/devops/MyMavenSeleniumApp01/target/classes:/home/vboxuser/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/home/vboxuser/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/home/vboxuser/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/home/vboxuser/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/vboxuser/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/vboxuser/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/vboxuser/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/vboxuser/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/vboxuser/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/vboxuser/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/home/vboxuser/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/home/vboxuser/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/home/vboxuser/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/home/vboxuser/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:"/>
+>>>>>>> 29bc347 (first commit)
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/vboxuser"/>
     <property name="user.language" value="en"/>
@@ -26,13 +40,21 @@
     <property name="java.version.date" value="2026-01-20"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
+<<<<<<< HEAD
     <property name="basedir" value="/home/vboxuser/devops/MyMavenApp"/>
+=======
+    <property name="basedir" value="/home/vboxuser/devops/MyMavenSeleniumApp01"/>
+>>>>>>> 29bc347 (first commit)
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="/home/vboxuser/devops/MyMavenApp/target/surefire/surefirebooter798975161524152343.jar"/>
+=======
+    <property name="surefire.real.class.path" value="/home/vboxuser/devops/MyMavenSeleniumApp01/target/surefire/surefirebooter16175246807057187582.jar"/>
+>>>>>>> 29bc347 (first commit)
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.30+7-post-Ubuntu-1ubuntu122.04"/>
     <property name="user.name" value="vboxuser"/>
@@ -45,7 +67,11 @@
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="11.0.30"/>
+<<<<<<< HEAD
     <property name="user.dir" value="/home/vboxuser/devops/MyMavenApp"/>
+=======
+    <property name="user.dir" value="/home/vboxuser/devops/MyMavenSeleniumApp01"/>
+>>>>>>> 29bc347 (first commit)
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -58,5 +84,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="testApp" classname="com.example.AppTest" time="0.034"/>
+=======
+  <testcase name="testApp" classname="com.example.AppTest" time="0.001"/>
+>>>>>>> 29bc347 (first commit)
 </testsuite>
